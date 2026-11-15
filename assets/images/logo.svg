@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="roseGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="50%" stop-color="#fb7185" />
+      <stop offset="100%" stop-color="#fda4af" />
+    </linearGradient>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#09090b" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="250" cy="250" r="235" fill="url(#darkBg)" stroke="url(#roseGold)" stroke-width="4" />
+  <circle cx="250" cy="250" r="218" fill="none" stroke="rgba(251, 113, 133, 0.3)" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <!-- Tiered Cake Outline with Floral Crown -->
+  <rect x="175" y="215" width="150" height="40" rx="8" fill="url(#roseGold)" opacity="0.95" />
+  <rect x="195" y="170" width="110" height="38" rx="6" fill="url(#roseGold)" opacity="0.85" />
+  <rect x="215" y="130" width="70" height="32" rx="4" fill="url(#roseGold)" opacity="0.75" />
+  <circle cx="250" cy="118" r="6" fill="#ffffff" />
+
+  <!-- Monogram BS Accent Line -->
+  <line x1="140" y1="275" x2="360" y2="275" stroke="#ffffff" stroke-width="2" opacity="0.8" />
+
+  <!-- Typography -->
+  <text x="250" y="335" text-anchor="middle" font-family="'Playfair Display', 'Times New Roman', serif" font-size="28" font-weight="700" fill="#ffffff" letter-spacing="4">BAKESTUDIO</text>
+  <text x="250" y="370" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#fb7185" letter-spacing="6">SYDNEY</text>
+  <text x="250" y="405" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" fill="rgba(255, 255, 255, 0.7)" letter-spacing="3">BESPOKE CELEBRATION CAKES &#8226; NORTH RYDE</text>
+</svg>
